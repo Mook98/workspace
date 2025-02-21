@@ -15,7 +15,7 @@ WORKDIR /work
 RUN git clone https://github.com/shared-repo/human-da.git \
 && cp -r ./human-da/workspace/webapps/demoweb2 .
 
-
+ENV
 
 EXPOSE 5000
 
